@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px;
+}
+.input-container{
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+.input-container input{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    transition: all 500ms;
+    border-radius: 10px;
+}
+.input-container input:focus{
+    border: 2px solid green;
+}
+.input-container button{
+    transition: all 500ms;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(100, 100, 100);
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+.input-container button:hover{
+    background-color: rgb(100, 100, 100);
+    
+}
+#img-container img{
+    width: 150px;
+}
+.pokemon-details{
+    background-color: gray;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:30px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.pokemon-details p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+#types{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#types .bug {
+    font-size: 0.75rem;
+    background-color: #A8B820; /* Bug Green */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .dark {
+    font-size: 0.75rem;
+    background-color: #705848; /* Dark Brown */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .dragon {
+    font-size: 0.75rem;
+    background-color: #6F35FC; /* Dragon Purple */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .electric {
+    font-size: 0.75rem;
+    background-color: #F8D030; /* Electric Yellow */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .fairy {
+    font-size: 0.75rem;
+    background-color: #F8A0D0; /* Fairy Pink */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .fighting {
+    font-size: 0.75rem;
+    background-color: #C03028; /* Fighting Red */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .fire {
+    font-size: 0.75rem;
+    background-color: #F08030; /* Fire Orange */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .flying {
+    font-size: 0.75rem;
+    background-color: #A890F0; /* Flying Light Purple */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .ghost {
+    font-size: 0.75rem;
+    background-color: #705898; /* Ghost Purple */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .ground {
+    font-size: 0.75rem;
+    background-color: #E0C068; /* Ground Brown */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .ice {
+    font-size: 0.75rem;
+    background-color: #98D8D8; /* Ice Light Blue */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .normal {
+    font-size: 0.75rem;
+    background-color: #A8A878; /* Normal Greenish */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .poison {
+    font-size: 0.75rem;
+    background-color: #A040A0; /* Poison Purple */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .psychic {
+    font-size: 0.75rem;
+    background-color: #F85888; /* Psychic Pink */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .rock {
+    font-size: 0.75rem;
+    background-color: #B8A038; /* Rock Brownish */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .steel {
+    font-size: 0.75rem;
+    background-color: #B8B8D0; /* Steel Gray */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .water {
+    font-size: 0.75rem;
+    background-color: #6890F0; /* Water Blue */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .grass {
+    font-size: 0.75rem;
+    background-color: #78C850; /* Grass Green */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#types .sound {
+    font-size: 0.75rem;
+    background-color: #B9A9F6; /* Sound Lavender */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+#pokemon-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+#pokemon-id{
+    font-weight: 500;
+}
+#stats{
+    display: none;
+}
+body{
+    background-color: rgb(107, 107, 107);
+}
